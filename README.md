@@ -9,11 +9,13 @@ The Smart Wheelchair Simulation System is a robust application designed to simul
 * **Description:** This feature utilizes the YOLOv5 object detection model to identify obstacles in real-time using your computer's webcam feed. It processes frames, draws bounding boxes around detected obstacles, and provides real-time movement commands (`move_forward`, `move_left`, `move_right`, `stop`) based on obstacle proximity and location within the frame.
 * **Technology:** YOLOv5, OpenCV.
 
-![Alt text for the image](path/to/your/image.png "Optional title text")
+![Obsticle_Detection_img](Obsticle_Detection_img.png "Obsticle_Detection")
 
 ### 2. Manual Navigation
 * **Description:** Allows users to load a floor map image and manually control a simulated wheelchair (represented by a red dot) using directional buttons. The system prevents movement into obstacles or walls defined on the map.
 * **Technology:** Matplotlib, NumPy.
+
+![Manual_Navigation_img](Manual_Navigation_img.png "Manual_Navigation")
 
 ### 3. Path Planning (A* Algorithm with Obstacle Buffering and Turn Penalty)
 * **Description:** Enables autonomous navigation on a loaded floor map. Users can mark multiple points on the map, name them, and then select start and end points for path calculation.
@@ -23,13 +25,19 @@ The Smart Wheelchair Simulation System is a robust application designed to simul
     * **Animated Movement:** Visualizes the wheelchair's movement along the calculated path with an animated yellow dot.
 * **Technology:** A* Search Algorithm, OpenCV (for dilation), Matplotlib, NumPy.
 
+![Path_Planning_img](Path_Planning_img.png "Path_Planning_img")
+
 ### 4. Static Image Detection
 * **Description:** Provides the capability to load a static image file and perform object detection using either YOLOv5 or Faster R-CNN models. Detected objects are highlighted with bounding boxes and labels on the displayed image.
 * **Technology:** YOLOv5, Faster R-CNN (ResNet50 FPN), OpenCV, PIL (Pillow).
 
+![Static_Image_Dectection_img](Static_Image_Dectection_img.png "Static_Image_Dectection_img")
+
 ### 5. Video Detection
 * **Description:** Allows users to load a video file and perform real-time object detection on its frames using either YOLOv5 or Faster R-CNN. The processed video, with detected objects highlighted, is displayed within the application.
 * **Technology:** YOLOv5, Faster R-CNN (MobileNetV3 FPN), OpenCV.
+
+![Video_detection_img](Video_detection_img.png "Video_detection_img")
 
 ### 6. Voice Control
 * **Description:** Offers an intuitive way to control the wheelchair simulation using voice commands.
@@ -39,6 +47,8 @@ The Smart Wheelchair Simulation System is a robust application designed to simul
     * **Path Planning via Voice:** In the "Path Planning" tab, you can use the command "go to [point name]" to initiate pathfinding to a pre-named location.
     * **Text Command Alternative:** Includes a text input field for typing commands, providing an alternative control method if microphone recognition is challenging.
 * **Technology:** SpeechRecognition library, Matplotlib, NumPy, Regular Expressions.
+
+![Voice_control_img](Voice_control_img.png "Voice_control_img")
 
 ## Setup and Installation
 
