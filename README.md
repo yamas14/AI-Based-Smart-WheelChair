@@ -9,7 +9,7 @@ The Smart Wheelchair Simulation System is a robust application designed to simul
 * **Description:** This feature utilizes the YOLOv5 object detection model to identify obstacles in real-time using your computer's webcam feed. It processes frames, draws bounding boxes around detected obstacles, and provides real-time movement commands (`move_forward`, `move_left`, `move_right`, `stop`) based on obstacle proximity and location within the frame.
 * **Technology:** YOLOv5, OpenCV.
 
-![Obsticle_Detection_img](Obsticle_Detection_img.png "Obsticle_Detection")
+![Obsticle_Detection_img](Images "Obsticle_Detection")
 
 ### 2. Manual Navigation
 * **Description:** Allows users to load a floor map image and manually control a simulated wheelchair (represented by a red dot) using directional buttons. The system prevents movement into obstacles or walls defined on the map.
