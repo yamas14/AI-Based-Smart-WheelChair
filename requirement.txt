@@ -1,0 +1,8 @@
+opencv-python
+torch
+numpy
+matplotlib
+Pillow
+speechrecognition
+PyQt5
+torchvision
