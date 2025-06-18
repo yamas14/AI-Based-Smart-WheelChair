@@ -1,3 +1,10 @@
+# Team Members:
+Sai Samay V M - 1BY22AI086
+Satrajeeth S - 1BY22AI083
+S Meghna - 1BY22AI081
+Ricky K - 1BY22AI080
+
+
 # Smart Wheelchair Simulation System
 
 ## Overview
